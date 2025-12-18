@@ -2,7 +2,7 @@
 
 Este proyecto es una réplica de la Landing Page de Nexcent, desarrollada como parte de la Prueba de Desempeño del Módulo 2 (HTML y CSS) en Riwi. El objetivo es crear una interfaz responsiva (To-Do), semántica y visualmente fiel al diseño proporcionado en Figma.
 
-## 🚀 Despliegue (Live Demo)
+## 🚀 Deploy (Live Demo)
 You can see the project deployed here:
 **https://nextcent-landingpage-riwi.netlify.app/**
 

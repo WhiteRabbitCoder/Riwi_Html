@@ -34,7 +34,7 @@ a {
 
 img{
     max-width: 100%;
-    /*display: block;*/
+    display: block;
 }
 
 h1, h2, h3, h4, h5 {
@@ -267,14 +267,91 @@ strong{
     gap: 1rem;
 }
 
-.stat-item img{
-    width: 1000px;
-    height: 150px;
-}
+/*.stat-item img{*/
+/*    width: 1000px;*/
+/*    height: 150px;*/
+/*}*/
 
 .stat-item h3 {
     font-size: 1.5rem;
     margin-bottom: 0;
+}
+
+/* --- TESTIMONIAL --- */
+.testimonial {
+    padding: 2rem 0;
+}
+
+.testimonial__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.testimonial__footer {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.testimonial__logos {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* --- BLOG --- */
+.blog {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.blog__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.blog-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden; /* optional */
+}
+
+.blog-card__img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.blog-card__content {
+    background: var(--white);
+    padding: 1.5rem;
+    margin: -4rem auto 1rem; /* Margen negativo para solapar */
+    width: 90%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.blog-card__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* --- CTA --- */
+.cta {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta__container h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 
